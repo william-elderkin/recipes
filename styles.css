@@ -1,6 +1,105 @@
 /* styles.css */
 
-div {
-    color: white
-    background-color: black;
-}
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     
+Designer: William Elderkin
+URL:     
+Date:     April 21, 2022
+----------------------------------------------- */
+
+
+body {
+  background:#FFFAF0;
+  margin:0;
+  padding:40px 20px;
+  font:x-small Georgia,Serif;
+  text-align:center;
+  color:#333;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+a:link {
+  color:#808080;
+  text-decoration:none;
+  }
+a:visited {
+  color:#404040;
+  text-decoration:none;
+  }
+a:hover {
+  color:#404040;
+  text-decoration:underline;
+  }
+a img {
+  border-width:0;
+  }
+
+/* Header
+----------------------------------------------- */
+#header {
+  width:660px;
+  margin:0 auto 10px;
+  border:1px solid #ccc;
+  }
+#blog-title {
+  margin:5px 5px 0;
+  padding:20px 20px .25em;
+  border:1px solid #eee;
+  border-width:1px 1px 0;
+  font-size:0%;
+  line-height:1.2em;
+  font-weight:normal;
+  color:#FFFAF0;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  }
+#blog-title a {
+  color:#666;
+  text-decoration:none;
+  }
+#blog-title a:hover {
+  color:#c60;
+  }<img src=http://i1142.photobucket.com/albums/n617/brandelion73/blogstuff/recipebox.jpg>
+#description {
+  margin:0 5px 5px;
+  padding:0 20px 20px;
+  border:1px solid #eee;
+  border-width:0 1px 1px;
+  max-width:700px;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+  }
+
+
+/* Content
+----------------------------------------------- */
+#content {
+  width:660px;
+  margin:0 auto;
+  padding:0;
+  text-align:left;
+  }
+#main {
+  width:410px;
+  float:left;
+  }
+#sidebar {
+  width:220px;
+  float:right;
+  }
+
+
+/* Headings
+----------------------------------------------- */
+h2 {
+  margin:1.5em 0 .75em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+  }
+

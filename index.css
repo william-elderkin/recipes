@@ -1,0 +1,48 @@
+body {
+    background-color: plum;
+}
+.page {
+    display: flex;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 12;
+}
+.section {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 12;
+}
+
+.header {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 12;
+}
+.header-item {
+    flex: 1 1 auto;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: blue;
+  text-align: center;
+  background-color: yellow:
+}
+
+sidebar {
+    display: flex;
+}

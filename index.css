@@ -13,6 +13,9 @@ a:hover {
   color:#404040;
   text-decoration:underline;
   }
+img {
+    
+}
 /*.page {
     display: flex;
     display: flex;
@@ -22,15 +25,28 @@ a:hover {
     justify-content: space-around;
     color: white;
 }*/
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 12;
+    width: 100%;
+}
+.header-item {
+    flex: 1;
+    background: blue;
+}
 .categories {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-around;
+   /* justify-content: space-between;*/
     color: white;
     font-size: 22;
-    height: 700px;
-    width: 200px;
+    height: auto;
+    width: 100%;
     margin: 10px;
 }
 .category {
@@ -46,21 +62,9 @@ a:hover {
     text-align: center;
     margin: 10px;
     height: 100px;
-    width: 100px;
+    width: 50%;
 }
-.header {
-    display: flex;
-    flex: 1;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    font-size: 12;
-}
-.header-item {
-    flex: 1 1 auto;
-    background: blue;
-}
+
 footer {
   position: fixed;
   left: 0;

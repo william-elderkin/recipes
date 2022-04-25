@@ -1,0 +1,36 @@
+.page {
+    display: flex;
+    flex-flow: column wrap;
+    background: lightblue;
+    padding: 10px;
+    border: 4px solid blue;
+    height: 50rem;
+}
+.header {
+    background: green;
+    border: 2px solid black;
+    width: 100%;
+    flex: 1;
+}
+.navbar {
+    flex: 1;
+    background: yellow;
+    border: 2px solid blue;
+}
+.recipe {
+    display: flex;
+    flex: 8;
+}
+.ingredients {
+    flex: 1;
+    background: pink;
+    border: 2px solid red;
+}
+.instructions {
+    flex: 3;
+    background: orange;
+    border: 2px solid blue;
+}
+.footer {
+
+}

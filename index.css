@@ -16,24 +16,36 @@ a:hover {
 img {
     
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+    text-align: center;
+    border: 1px solid black;
+}
 .page {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
     justify-content: space-around;
     color: white;
 }
-.header {
+.headernav {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    background: lightblue;
-    font-size: 12;
-    height: 10rem;
-    width: 100%;
-    margin: 2px;
+}
+.header {
+    flex: 4;
+    background: green;
+    border: 2px solid black;
+    text-align: center; 
+}
+.navbar {
+    flex: 1;
+    background: yellow;
+    border: 2px solid blue;
+    text-align: center;
 }
 .avatar {
     flex: 1;

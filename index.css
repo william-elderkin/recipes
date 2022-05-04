@@ -1,6 +1,4 @@
-body {
-    background-color: plum;
-}
+
 a:link {
   color:#808080;
   text-decoration:none;
@@ -27,11 +25,16 @@ li {
     text-align: center;
     /*border: 1px solid black;*/
 }
+body {
+    background: plum;
+}
 .page {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    background: plum;
+    padding: 10px;
     color: white;
+    border: 4px solid blue;
 }
 .headernav {
     display: flex;

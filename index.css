@@ -29,12 +29,11 @@ body {
     background: plum;
 }
 .page {
-    display: flex;
-    flex-flow: column wrap;
+   /* display: flex;
+    flex-flow: column wrap;*/
     background: plum;
     padding: 10px;
     color: white;
-    border: 4px solid blue;
 }
 .headernav {
     display: flex;
@@ -54,7 +53,7 @@ body {
     background: transparent;
     /*border: 2px solid black;*/
     text-align: center;
-    align-items: space-between;
+    align-items: space-around;
 }
 .navbaritem {
     flex:1;

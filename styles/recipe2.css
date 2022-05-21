@@ -34,6 +34,9 @@ body {
 .navbaritem {
     flex:1;
 }
+.title {
+    text-align: center;
+}
 .recipe {
     display: flex;
     flex: 8;
@@ -41,14 +44,17 @@ body {
     justify-content: space-around;
 }
 .ingredients {
-    flex: 1;
+    flex: 2;
     background: transparent;
     border: 2px solid black;
+    text-align: center;
+    color: peach;
 }
 .instructions {
     flex: 3;
     background: transparent;
     border: 2px solid black;
+    text-align: center;
 }
 .footer {
 

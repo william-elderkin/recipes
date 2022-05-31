@@ -4,7 +4,7 @@ a:link {
   text-decoration:none;
   }
 a:visited {
-  color:white;
+  color: GoldenRod;
   text-decoration:none;
   }
 a:hover {
@@ -26,14 +26,14 @@ li {
     /*border: 1px solid black;*/
 }
 body {
-    background: plum;
+    background: FireBrick;
 }
 .page {
    /* display: flex;
     flex-flow: column wrap;*/
-    background: plum;
+    background: FireBrick;
     padding: 10px;
-    color: white;
+    color: GoldenRod;
 }
 .headernav {
     display: flex;

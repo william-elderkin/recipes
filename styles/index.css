@@ -26,12 +26,12 @@ li {
     /*border: 1px solid black;*/
 }
 body {
-    background: FireBrick;
+    background: #972e25;
 }
 .page {
    /* display: flex;
     flex-flow: column wrap;*/
-    background: FireBrick;
+    background: #972e25;
     padding: 10px;
     color: GoldenRod;
 }
@@ -74,7 +74,7 @@ body {
     align-items: center;
     justify-content: space-between;
     color: white;
-    font-size: 22;
+    font-size: 22px;
     height: 400px;
     width: 100%;
     margin: 10px;

@@ -1,5 +1,5 @@
 body {
-    background: FireBrick;
+    background: #972e25;
 }
 a:link {
   color:#808080;
@@ -16,7 +16,7 @@ a:hover {
 .page {
     /*display: flex;
     flex-flow: column wrap;*/
-    background: FireBrick;
+    background: #972e25;
     padding: 10px;
     color: GoldenRod;
     

@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid #e8b440;
 }
 .header {
     flex: 2;
